@@ -1,0 +1,57 @@
+body {
+	margin: 0 auto;
+	text-align: center;
+}
+#header h1 {
+	font-family: 'Monofett', cursive;
+	font-size: 3.5em;
+	margin: 15px;
+}
+#grid {
+	margin: 0 auto;
+}
+
+#grid>div {
+	height: 21px; /* extra 1 px added to account for border */
+}
+
+#grid>div>div {
+	display: inline-block;
+	border: 1px solid white;
+	padding: 10px; /* padding equals 1/2 height */
+}
+
+#gameover {
+	font-family: 'Aldrich', sans-serif;
+	background-color: lightgray;
+	padding: 20px;
+	width: 400px;
+	margin: 0 auto;
+	border-radius: 4px;
+	position: fixed;
+	top: 200px;
+	left: 483px;
+}
+#gameover>button {
+	width: 150px;
+	border-radius: 5px;
+	font-size: 1em;
+	border: none;
+	padding: 15px;
+}
+#gameover>button:hover {
+	background-color: gray;
+	color: lightgray;
+}
+
+.snake {
+	background-color: lightgreen;
+}
+
+.food {
+	background-color: red;
+}
+
+.empty {
+	background-color: black;
+}
